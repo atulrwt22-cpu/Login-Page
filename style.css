@@ -1,14 +1,24 @@
 * {
-			margin: 0;
-    		padding: 0;
-    		box-sizing: border-box;
-    		font-family: 'Poppins', 'Segoe UI', verdana, sans-serif;
-		}
-		.container-login{
-		  width: 50%;
-		  margin-top: 12%;
-		  padding: 50px;
-		}
-		.frm-box{		
-			background-color: #f6f6f6;
-		}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Segoe UI', verdana, sans-serif;
+}
+
+.login-body{		
+	min-height: 100vh !important;
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+}
+
+.container {
+	width: 50% !important;
+    top: 50% !important;
+	max-width: 950px !important;
+}
+
+.login-btn{
+	width: 50%;
+	margin-top: 15px;
+}
